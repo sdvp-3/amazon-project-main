@@ -7,26 +7,25 @@
       body {
         position: relative;
         font-family: arial;
-height: 100vh;
-
+        height: 100vh;
 
         display: flex;
         align-items: center;
         justify-content: center;
 
         flex-direction: column;
-gap:15px;
+        gap: 15px;
         color: white;
 
         background:
           radial-gradient(circle at 50% 20%, #47267f, transparent 35%),
           radial-gradient(circle at 80% 80%, #032d8e, transparent 35%),
-       
-            radial-gradient(circle at 40% 80%, #0f285f, transparent 40%),rgba(12, 8, 134, 0.947);
+          radial-gradient(circle at 40% 80%, #0f285f, transparent 40%),
+          rgba(12, 8, 134, 0.947);
         background-color: rgb(0, 0, 0);
       }
       .card {
-    font-family: 'Courier New', Courier, monospace; 
+        font-family: "Courier New", Courier, monospace;
         width: 800px;
         padding: 36px;
         height: auto;
@@ -42,20 +41,17 @@ gap:15px;
         box-shadow:
           0 8px 32px rgba(0, 0, 0, 0.35),
           inset 0 1px 0 rgba(255, 255, 255, 0.15);
-font-size: 10px;
+        font-size: 10px;
         color: white;
       }
 
-
-  
       .container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 15px;
-       
-       
+
         width: 600px;
         height: auto;
         padding: 35px;
@@ -79,7 +75,7 @@ font-size: 10px;
       .portfolia,
       .portfolia1,
       .linkedin,
-      .tweeter  {
+      .tweeter {
         width: 380px;
         height: 65px;
         display: flex;
@@ -89,12 +85,14 @@ font-size: 10px;
         font-size: 25px;
         padding-left: 10px;
         cursor: pointer;
-       text-align: center;
-       justify-content: center;
+        text-align: center;
+        justify-content: center;
         box-shadow:
           0 8px 32px rgba(0, 0, 0, 0.35),
           inset 0 1px 0 rgba(255, 255, 255, 0.15);
-transition: color 0.2s ease, border-color 0.2s ease;
+        transition:
+          color 0.2s ease,
+          border-color 0.2s ease;
         color: rgb(255, 255, 255);
       }
 
@@ -104,22 +102,24 @@ transition: color 0.2s ease, border-color 0.2s ease;
       .linkedin:hover,
       .tweeter:hover {
         background-color: rgba(1, 7, 21, 0.355);
-         transition: color 0.6s ease, border-color 0.5s ease;
+        transition:
+          color 0.6s ease,
+          border-color 0.5s ease;
         transform: scale(0.97);
         color: rgb(26, 175, 26);
       }
 
-      .card-container{
-            width: 400px;
+      .card-container {
+        width: 400px;
         height: 80px;
         display: flex;
-       padding: 10px;
+        padding: 10px;
         border-radius: 16px;
         align-items: center;
         font-size: 25px;
         padding-left: 10px;
         cursor: pointer;
-         gap: 10px;
+        gap: 10px;
         box-shadow:
           0 8px 32px rgba(0, 0, 0, 0.35),
           inset 0 1px 0 rgba(255, 255, 255, 0.15);
@@ -131,113 +131,122 @@ transition: color 0.2s ease, border-color 0.2s ease;
       .link,
       .tweet,
       .soft,
-      .git{
+      .git {
         height: 65px;
         width: 65px;
         border-radius: 16px;
-        border: 1px solid  rgba(255, 255, 255, 0.41);;
-        
+        border: 1px solid rgba(255, 255, 255, 0.41);
       }
 
-        .tourizm:hover,
+      .tourizm:hover,
       .tweet:hover,
       .link:hover,
       .tweet:hover,
       .soft:hover,
-      .git:hover{
-     background-color: white;
-     outline: none;
-     transition: 0.5s;
+      .git:hover {
+        background-color: white;
+        outline: none;
+        transition: 0.5s;
       }
-      .img-man{
+      .img-man {
         height: 100px;
         width: 100px;
       }
 
-      h1:hover{
-         transition: 0.7s;
+      h1:hover {
+        transition: 0.7s;
         color: rgb(36, 197, 36);
         cursor: pointer;
-
       }
-      a{
+      a {
         text-decoration: none;
       }
 
-      .author{
+      .author {
         position: absolute;
         bottom: 20px;
         right: 20px;
       }
 
-      .created{
+      .created {
         position: absolute;
         bottom: 20px;
         left: 20px;
       }
-
-    
     </style>
   </head>
   <body>
     <div class="card">
-      <img class="img-man" src="./javascript-amazon-project-main/img/software-engineer.png">
-      <h1>Hi Everyone, My name is Saidjon and I'm new to Full Stack Development (Software Engineering). I'm currently learning to write code using the VS Code editor. This page includes my social media links and materials,I'm currently pursuing a Master's degree in Tourism Management in South Korea.</h1>
+      <img
+        class="img-man"
+        src="./javascript-amazon-project-main/img/software-engineer.png"
+      />
+      <h1>
+        Hi Everyone, My name is Saidjon and I'm new to Full Stack Development
+        (Software Engineering). I'm currently learning to write code using the
+        VS Code editor. This page includes my social media links and
+        materials,I'm currently pursuing a Master's degree in Tourism Management
+        in South Korea.
+      </h1>
     </div>
 
     <div class="container">
-
       <div class="card-container">
+        <img
+          class="soft"
+          src="./javascript-amazon-project-main/img/coding.png"
+        />
 
- <img class="soft" src="./javascript-amazon-project-main/img/coding.png" >
+        <div class="portfolia">Software Development Materials</div>
+      </div>
 
-          <div class="portfolia"> Software Development Materials </div>
-      </div>
-    
-<a  href="https://github.com/dashboard">
-     <div   class="card-container">
-         <img class="git" src="./javascript-amazon-project-main/img/github.png" >
-  <div class="portfolia1"> GitHub </div>
+      <a href="https://github.com/dashboard">
+        <div class="card-container">
+          <img
+            class="git"
+            src="./javascript-amazon-project-main/img/github.png"
+          />
+          <div class="portfolia1">GitHub</div>
+        </div>
+      </a>
 
+      <div class="card-container" v>
+        <img
+          class="tourizm"
+          src="./javascript-amazon-project-main/img/airplane-around-earth.png"
+        />
+        <div class="subject">Tourism Management Materials</div>
       </div>
-</a>
- 
-    
-      <div class="card-container"v >
-         <img class="tourizm" src="./javascript-amazon-project-main/img/airplane-around-earth.png" >
-  <div class="subject"> Tourism Management Materials </div>
-      </div>
-    
+
       <a href="https://www.linkedin.com/feed/">
-     <div  class="card-container" >
-         <img class="link" src="./javascript-amazon-project-main/img/linkedin.png" >
-         <div class="linkedin"> LinkedIn </div>
-      </div>
+        <div class="card-container">
+          <img
+            class="link"
+            src="./javascript-amazon-project-main/img/linkedin.png"
+          />
+          <div class="linkedin">LinkedIn</div>
+        </div>
       </a>
 
- 
-     
       <a href="https://x.com/home">
-
-      <div  class="card-container">
-        <img class="tweet" src="./javascript-amazon-project-main/img/tweet1.png" >
-          <div class="tweeter"> Twitter </div>
-      </div>
+        <div class="card-container">
+          <img
+            class="tweet"
+            src="./javascript-amazon-project-main/img/tweet1.png"
+          />
+          <div class="tweeter">Twitter</div>
+        </div>
       </a>
 
-
-           
       <a href="https://discord.com/channels/@me">
-
-      <div  class="card-container">
-        <img class="tweet" src="./javascript-amazon-project-main/img/discord.png" >
-          <div class="tweeter"> Discord </div>
-      </div>
+        <div class="card-container">
+          <img
+            class="tweet"
+            src="./javascript-amazon-project-main/img/discord.png"
+          />
+          <div class="tweeter">Discord</div>
+        </div>
       </a>
-
-    
-    </div>
-    </div>
     </div>
 
     <div class="author">Made By Saidjon</div>
